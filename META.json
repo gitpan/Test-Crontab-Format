@@ -46,14 +46,15 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "Test::Tester" : "0"
          }
       }
    },
    "provides" : {
       "Test::Crontab::Format" : {
          "file" : "lib/Test/Crontab/Format.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -67,5 +68,5 @@
          "web" : "https://github.com/ryochin/p5-test-crontab-format"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

@@ -10,7 +10,7 @@ use Parse::Crontab 0.03;
 
 # ABSTRACT: Check crontab format validity
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 our @EXPORT = qw(
     crontab_format_ok
@@ -105,7 +105,7 @@ Checks the validity. You can pass file name or scalar ref.
 
 =head1 NOTE
 
-passing empty file/content always yields failure.
+passing empty (0 byte) file/content always yields failure despite Parse::Crontab treats it as success.
 
 =head1 DEPENDENCY
 

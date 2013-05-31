@@ -4,6 +4,7 @@ author:
   - 'Ryo Okamoto <ryo@aquahill.net>'
 build_requires:
   Test::More: 0
+  Test::Tester: 0
 configure_requires:
   CPAN::Meta: 0
   CPAN::Meta::Prereqs: 0
@@ -27,7 +28,7 @@ no_index:
 provides:
   Test::Crontab::Format:
     file: lib/Test/Crontab/Format.pm
-    version: 0.01
+    version: 0.02
 requires:
   Parse::Crontab: 0.03
   perl: 5.008001
@@ -35,4 +36,4 @@ resources:
   bugtracker: https://github.com/ryochin/p5-test-crontab-format/issues
   homepage: https://github.com/ryochin/p5-test-crontab-format
   repository: git://github.com/ryochin/p5-test-crontab-format.git
-version: 0.01
+version: 0.02
